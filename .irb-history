@@ -1,0 +1,35 @@
+reinstall_apps
+reinstall_apps
+reinstall_apps
+start_test_server_in_background
+query('*')
+exit
+start_test_server_in_background
+query('*')
+query('*')
+query('*')
+query('*')
+query('*:id')
+reinstall_apps
+start_test_server_in_background
+query('*')
+touch("* id:'Interstitial close button'")
+touch("* css:'Interstitial close button'")
+touch("* css:'Interstitial close button'")
+touch("* css:'android.widget.ImageButton'")
+touch("* text:'Interstitial close button'")
+exit
+start_test_server_in_background
+query('*')
+query('css: Interstitial close button')
+query('*android.widget.ImageButton')
+touch('*android.widget.ImageButton')
+touch('query*android.widget.ImageButton')
+Touch('Query')
+touch('')
+touch ("android.widget.ImageButton")
+exit
+start_test_server_in_background
+tap_when_element_exists("'android.widget.ImageButton'")
+tap_when_element_exists('android.widget.ImageButton')
+exit
